@@ -1,0 +1,15 @@
+<!DOCTYPE html><head>
+<title>LittleJS Puzzle Game</title>
+<meta charset=utf-8>
+<meta name=apple-mobile-web-app-capable content=yes>
+<meta name=mobile-web-app-capable content=yes>
+<link rel=icon type=image/png href=./icon-72.png>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js', { scope: '.', });
+  }
+</script>
+<script src=../../dist/littlejs.js?198></script>
+<script src=game.js?198></script>

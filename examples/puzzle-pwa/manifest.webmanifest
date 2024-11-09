@@ -1,0 +1,36 @@
+{
+  "name": "LittleJS Puzzle Game",
+  "short_name": "LitleJS Puzzle",
+  "description": "LittleJS example Progressive Web App",
+  "scope": "/LittleJS/examples/puzzle-pwa",
+  "start_url": "/LittleJS/examples/puzzle-pwa/index.html",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./icon-72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "./icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./screenshot1.png",
+      "type": "image/png",
+      "sizes": "1373x937",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./screenshot2.png",
+      "type": "image/png",
+      "sizes": "616x1340",
+      "form_factor": "narrow"
+    }
+  ]
+}
